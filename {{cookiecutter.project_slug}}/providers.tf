@@ -1,12 +1,11 @@
-terraform {
-  required_providers {
-    random = {
-      source = "hashicorp/random"
-      version = "3.6.0"
-    }
-  }
-}
+# E.g:
+# terraform {
+#   required_providers {
+#     random = {
+#       source = "hashicorp/random"
+#       version = "3.6.0"
+#     }
+#   }
+# }
 
-provider "random" {
-  # Configuration options
-}
+# provider "random" {}
