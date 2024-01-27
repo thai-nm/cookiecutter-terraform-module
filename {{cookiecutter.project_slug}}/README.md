@@ -4,9 +4,10 @@
 The following components are required to use this module:
   - [terraform](https://www.terraform.io/downloads.html) 1.7+
   - [terra-test](https://terratest.gruntwork.io/) v0.46+
+  - [terraform-docs](https://terraform-docs.io/) v0.17+
 
 ## Usage
-Please refer to [docs](./docs) directory for more info. Here is a simple usage of this module:
+Here is a simple usage of this module:
 
 ```bash
 module "random_string" {
@@ -16,6 +17,13 @@ module "random_string" {
   enable_special = false
 }
 ```
+
+To generate documentation for this module:
+```bash
+terraform-docs md table . > docs/terraform-docs.md
+```
+
+Please refer to [docs](./docs) directory for more info.
 
 ## License
 This code is developed by {{ cookiecutter.author }}.
