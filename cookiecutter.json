@@ -1,5 +1,6 @@
 {
   "module_name": "terraform-module-random-string",
+  "description": "A Terraform module.",
   "project_slug": "{{ cookiecutter.module_name.lower().replace(' ', '_') }}",
   "author": "Thai Nguyen Minh"
 }
