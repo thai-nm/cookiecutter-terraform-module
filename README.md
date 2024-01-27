@@ -2,12 +2,14 @@
 A cookiecutter to quickly create a Terraform module repository.
 
 ## Requirement
+- [cookiecutter](https://github.com/cookiecutter/cookiecutter) 2.5+
 
 ## Usage
+```bash
+cookiecutter gh:thai-nm/cookiecutter-terraform-module
+```
 
-## To-do
+Then provide some required inputs and a Terraform module is created for you.
 
-- [x] Update template terraform-docs.md
-- [x] Add simple test case with terra-test
-- [x] Update template README.md
-- [ ] Update module template with conditions: minimal, standard, full
+## Author
+This cookiecutter is developed by Thai Nguyen.
